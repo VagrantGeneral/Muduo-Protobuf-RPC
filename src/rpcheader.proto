@@ -1,0 +1,16 @@
+syntax = "proto3"; // 声明protobuf的版本
+
+package mprpc; // 声明所在的包（对于C++来说就是namespace）
+
+//option cc_generic_services = true; // 定义选项，标识生成service服务类和rpc方法描述，默认不生成。
+
+message RpcHeader {
+    bytes service_name = 1; // 服务对象名
+    bytes method_name = 2;  // 方法名
+    uint32 args_size = 3;   // 参数长度
+}
+
+
+
+
+

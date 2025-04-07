@@ -1,0 +1,6 @@
+22:29:1 => first log
+[ERROR] 22:52:7 => first log
+[ INFO] 22:52:7 => second log file-/home/hankangkai/code/mprpc-recode/example/collee/friendservice.cc func-main line-56
+[ INFO] 22:52:7 => service_name : FriendServiceRpc
+[ INFO] 22:52:7 => method_name : GetFriendsList
+[ INFO] 22:52:7 => RpcProvider start service at ip : 127.0.0.1 port : 8888
